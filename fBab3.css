@@ -1,0 +1,140 @@
+*{
+    margin :0;
+    padding :0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+section{
+    height: 100vh;
+    display: flex;
+    scroll-snap-align: start;
+}
+.one{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), transparent),url(images/L3.png);
+    background-size:cover;
+    background-position:center;
+}
+.two{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), transparent),url(images/L4.png);
+    background-size:cover;
+    background-position:center;
+}
+.three{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), transparent),url(images/L3.png);
+    background-size:cover;
+    background-position:center;
+}
+.content{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.button{
+    width: 150px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #2162a5;
+    background: transparent;
+    color: #88c8f1;
+    cursor: pointer;
+    position: relative; top: -230px; left: -80px;
+    overflow: hidden;
+
+}
+span{
+    background: #2162a5;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+.split{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.left{
+    left: 70px;
+    top: -25px;
+}
+.right{
+    right: -70px;
+    top: -25px;
+}
+.par{
+    color: #151B54;
+}
+.par h1{
+    position: relative; top: 85px;
+    color: #2162a5;
+    font-size: 30px;
+}
+.par p{
+    position: relative; top: 90px;
+    line-height: 20px;
+    font-weight: bold;
+}
+.par h2{
+    position: relative; top: 90px;
+    color: #88c8f1;
+}
+.page{
+    color: #151B54;
+    text-align: center;
+}
+.page h1{
+    position: relative; top: 120px; left: 425px;
+    color: #2162a5;
+    font-size: 30px;
+}
+.page p{
+    position: relative; top: 125px; left: 425px;
+    line-height: 20px;
+    font-weight: bold;
+}
+.page h2{
+    position: relative; top: 125px; left: 425px;
+    color: #88c8f1;
+}
+.pak{
+    color: #151B54;
+}
+.pak h1{
+    position: relative; top: 30px;
+    color: #2162a5;
+    font-size: 30px;
+}
+.pak p{
+    position: relative; top: 35px;
+    line-height: 20px;
+    font-weight: bold;
+}
+.pak h2{
+    position: relative; top: 35px;
+    color: #88c8f1;
+}

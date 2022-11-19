@@ -1,0 +1,141 @@
+*{
+    margin :0;
+    padding :0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+section{
+    height: 100vh;
+    display: flex;
+    scroll-snap-align: start;
+}
+.one{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), transparent),url(images/L1.png);
+    background-size:cover;
+    background-position:center;
+}
+.two{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), transparent),url(images/L2.png);
+    background-size:cover;
+    background-position:center;
+}
+.three{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), transparent),url(images/L1.png);
+    background-size:cover;
+    background-position:center;
+}
+.four{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), transparent),url(images/L1.png);
+    background-size:cover;
+    background-position:center;
+}
+.content{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.button{
+    width: 150px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #e19251;
+    background: transparent;
+    color: #a5593c;
+    cursor: pointer;
+    position: relative; top: -230px; left: -80px;
+    overflow: hidden;
+
+}
+span{
+    background: #e19251;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+.split{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.left{
+    left: 70px;
+    top: -25px;
+}
+.right{
+    right: -70px;
+    top: -25px;
+}
+.par{
+    color: #806517;
+}
+.pak{
+    color: #806517;
+}
+.par h1{
+    position: relative; top: 85px;
+    color: #e19251;
+    font-size: 30px;
+}
+.par p{
+    position: relative; top: 90px;
+    line-height: 20px;
+    font-weight: bold;
+}
+.par h2{
+    position: relative; top: 90px;
+    color: #a5593c;
+}
+.par table{
+    position: relative; top: 85px;
+}
+.par td{
+    text-align: center;
+    font-weight: bold;
+}
+.pak h1{
+    position: relative; top: 30px;
+    color: #e19251;
+    font-size: 30px;
+}
+.pak p{
+    position: relative; top: 35px;
+    line-height: 20px;
+    font-weight: bold;
+}
+.pak h2{
+    position: relative; top: 35px;
+    color: #a5593c;
+}
+.pak table{
+    position: relative; top: 35px;
+}
+.pak td{
+    text-align: center;
+    font-weight: bold;
+}
