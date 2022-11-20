@@ -74,6 +74,9 @@ nav ul li a:hover::after{
     font-weight: 100;
     line-height: 25px;
 }
+a{
+    display: inline-block;
+}
 .button{
     width: 200px;
     padding: 15px 0;
