@@ -34,43 +34,6 @@ section{
     background-size:cover;
     background-position:center;
 }
-.content{
-    text-align: center;
-}
-.button{
-    border: 2px solid #e19251;
-    background: none;
-    padding: 15px 0;
-    cursor: pointer;
-    color: #a5593c;
-    transition: 0.8s;
-    position: relative;
-    overflow: hidden;
-    border-radius: 25px;
-    width: 150px;
-    font-weight: bold;
-    position: relative;
-    top: 30px;
-    left: -240px;
-}
-.button:hover{
-    color: #a5593c;
-}
-.button::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 0%;
-    background: #e19251;
-    z-index: -1;
-    transition: 0.8s;
-    top: 0;
-    border-radius: 0 0 50% 50%;
-}
-.button:hover::before{
-    height: 180%;
-}
 .split{
     height: 100%;
     width: 50%;
@@ -88,32 +51,8 @@ section{
     right: -70px;
     top: -25px;
 }
-.par{
-    color: #806517;
-}
 .pak{
     color: #806517;
-}
-.par h1{
-    position: relative; top: 35px;
-    color: #e19251;
-    font-size: 30px;
-}
-.par p{
-    position: relative; top: 40px;
-    line-height: 20px;
-    font-weight: bold;
-}
-.par h2{
-    position: relative; top: 40px;
-    color: #a5593c;
-}
-.par table{
-    position: relative; top: 35px;
-}
-.par td{
-    text-align: center;
-    font-weight: bold;
 }
 .pak h1{
     position: relative; top: 30px;
@@ -135,15 +74,4 @@ section{
 .pak td{
     text-align: center;
     font-weight: bold;
-}
-.pal{
-    color: #806517;
-}
-.pal p{
-    position: relative; top: 100px;
-    font-weight: bold;
-}
-.pal h2{
-    position: relative; top: 105px;
-    color: #a5593c;
 }
