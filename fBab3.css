@@ -66,19 +66,17 @@ section{
 .page{
     color: #151B54;
     text-align: center;
+    margin: auto;
 }
 .page h1{
-    position: relative; top: 120px; left: 425px;
     color: #2162a5;
     font-size: 30px;
 }
 .page p{
-    position: relative; top: 125px; left: 425px;
     line-height: 20px;
     font-weight: bold;
 }
 .page h2{
-    position: relative; top: 125px; left: 425px;
     color: #88c8f1;
 }
 .pak{
